@@ -14,7 +14,7 @@ Android系统架构图
 ### Activity如与Service通信？
 
 可以通过bindService的方式，先在Activity里实现一个ServiceConnection接口，并将该接口传递给bindService()方法，在ServiceConnection接口的onServiceConnected()方法
-里执行相关操作。
+里执行相关操作。(可交互的后台服务-https://blog.csdn.net/weixin_41101173/article/details/79718718)
 
 ### Service的生命周期与启动方法由什么区别？
 
